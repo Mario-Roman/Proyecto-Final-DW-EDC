@@ -1,0 +1,85 @@
+/* propiedades globales */
+:root{
+    --colorbanner:#2a5d50;
+    --blanco:white;
+    --negro:#000;
+}
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 10px;
+}
+
+/* Parte header */
+
+.container{
+    margin: 1.5rem;
+}
+
+.header{
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    
+}
+
+.header_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_div_div{
+    display: flex;
+    align-items: center;
+}
+
+.header_div_div_img{
+    border-radius: 80%;
+    margin-right: 1.5rem;
+
+}
+
+.header_link{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--negro);
+}
+
+.header_link:hover{
+    text-decoration: underline;
+}
+
+input{
+    border: none;
+    padding:0.5rem;
+    border-radius: 2rem;
+    background-color: var(--blanco);
+    border: 0.1rem solid var(--negro);
+}
+
+input:hover{
+    background: var(--negro);
+    color: var(--blanco);
+}
+
+/* Parte banner */
+
+.banner{
+    height: 36rem;
+    background:var(--colorbanner);
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}

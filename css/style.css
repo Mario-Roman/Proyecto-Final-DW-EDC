@@ -3,6 +3,7 @@
     --colorbanner:#2a5d50;
     --blanco:white;
     --negro:#000;
+    --rojo:#FF0B1E;
 }
 
 *{
@@ -76,12 +77,12 @@ input:hover{
 /* Parte banner */
 
 .banner{
-    height: 36rem;
+    height: 40rem;
     background:var(--colorbanner);
     margin-top: 3rem;
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: .8rem;
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
@@ -89,7 +90,7 @@ input:hover{
 }
 
 p{
-    font-size: 1.7rem;
+    font-size: 2rem;
     letter-spacing: normal;
     line-height: 1.8;
     font-family: Arial, Helvetica, sans-serif;
@@ -97,4 +98,40 @@ p{
 
 .aprende{
     color: var(--blanco);
+}
+/* Parte Banner 2 */
+
+.banner2{
+    margin-top:2rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner2_img{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner2_text{
+    text-align: center;
+    background: red;
+    padding-top:8rem;
+    width: 100rem;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: .8rem;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.pedido{
+    background-color: #FF0B1E;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+.pedido:hover{
+    background-color: var(--blanco);
+    color: var(--rojo);
 }

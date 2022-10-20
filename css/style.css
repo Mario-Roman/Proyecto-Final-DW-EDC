@@ -81,5 +81,20 @@ input:hover{
     margin-top: 3rem;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
+    letter-spacing: .8rem;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+}
+
+p{
+    font-size: 1.7rem;
+    letter-spacing: normal;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aprende{
+    color: var(--blanco);
 }
